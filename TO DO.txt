@@ -6,6 +6,8 @@ TO DO:																	Sign OFF (Who did it)
 Add anything if needed, strike-through if cancelled
 
 
+EDIT: USE THE ISSUES TAB ON GITHUB, MORE EFFICIENT DOCUMENTATION
+
 
 collision detection
 
