@@ -1,0 +1,19 @@
+
+
+TO DO:																	Sign OFF (Who did it)
+
+
+Add anything if needed, strike-through if cancelled
+
+
+
+collision detection
+
+map grid size
+
+mirrors
+
+walls
+
+laser motion
+
