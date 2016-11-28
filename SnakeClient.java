@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
         
-        
+       
 public class SnakeClient extends SnakeGame implements ActionListener
 {
     private static final int GAME_HEIGHT = 600;  // Sets the height of the game field in pixels
@@ -40,7 +40,9 @@ public class SnakeClient extends SnakeGame implements ActionListener
         timer.start();
         
     }
-    
+    public static int getNumSegments(){
+        return numSegments;
+    }
     @Override
     public void paint(Graphics g)
     {
@@ -167,7 +169,7 @@ public class SnakeClient extends SnakeGame implements ActionListener
         }
     }
     
-    public static void main(String[] args)
+    public static void main(String[] args) 
     {
       SnakeClient prog = new SnakeClient();
       prog.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -176,5 +178,3 @@ public class SnakeClient extends SnakeGame implements ActionListener
     }
 
 }
-
-
