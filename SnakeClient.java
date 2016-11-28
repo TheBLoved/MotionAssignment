@@ -73,7 +73,7 @@ public class SnakeClient extends SnakeGame implements ActionListener
         }
         else
         {     
-            String lossMessage = "Game Over"; // The message displayed on losing the game
+            String lossMessage = "Game Over | Score: " + numSegments; // The message displayed on losing the game
             Font message = new Font("Ariel", Font.BOLD, 20); // Creates the font for the loss message
             FontMetrics metric = getFontMetrics(message); // https://docs.oracle.com/javase/7/docs/api/java/awt/class-use/FontMetrics.html describes font metric for finding middle of screen with this font
             g.setColor(Color.RED); // sets the color of the loss message
